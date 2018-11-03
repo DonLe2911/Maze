@@ -1,0 +1,88 @@
+@import "./consts";
+
+body {
+    font-family: $fonts-for-display;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.bg { 
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.fullscreen_bgvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen_bgvideo {
+      height: 300%;
+      top: -100%;
+    }
+}
+  
+@media (max-aspect-ratio: 16/9) {
+    .fullscreen_bgvideo {
+      width: 300%;
+      left: -100%;
+    }
+}
+
+.welcome_container {
+    position: relative;
+
+    width: 50rem;
+    height: 40rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcome {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+    // set opacity to 80%
+    background: rgba(255, 255, 255, 0.95);
+    //background-color: white; 
+    border-radius: 3px; 
+    box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0.24); 
+ 
+    p { 
+        color: black;
+    }
+
+    @include box_instructions();
+}

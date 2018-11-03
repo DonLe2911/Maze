@@ -1,0 +1,136 @@
+.btn-success {
+  background-color: #009639 !important;
+}
+
+.kainos_header {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.3rem 9999rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid #f4f3f6;
+}
+.kainos_header img {
+  width: 13%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.fullscreen_bgvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen_bgvideo {
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen_bgvideo {
+    width: 300%;
+    left: -100%;
+  }
+}
+.welcome_container {
+  position: relative;
+  width: 50rem;
+  height: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#welcome {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 3px;
+  box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+#welcome p {
+  color: black;
+}
+#welcome div {
+  position: relative;
+  width: 100%;
+}
+#welcome div:not(:last-of-type) {
+  margin-bottom: 1em;
+}
+#welcome .title {
+  height: 3em;
+}
+#welcome .title span {
+  font-size: 2rem;
+}
+#welcome .instructions {
+  box-sizing: border-box;
+  padding: 3px;
+  text-align: justify;
+  color: #8b878e;
+}
+#welcome .example {
+  border: 1px solid #f4f3f6;
+  padding: 1em;
+}
+#welcome .example span {
+  font-weight: 300;
+}
+#welcome .example span b {
+  font-weight: 600;
+}
+#welcome .run {
+  margin-top: 1em;
+  margin-bottom: -1em;
+  text-align: center;
+}
+#welcome .run a {
+  background-color: #009639;
+  min-width: 6em;
+  color: white;
+}
+
+/*# sourceMappingURL=welcome.css.map */

@@ -1,0 +1,52 @@
+
+@mixin box_s1(){
+    border : 1px solid $color-lgray;
+    padding: 1em;
+}
+
+@mixin box_instructions(){
+    div{
+        position: relative;
+        width: 100%;
+
+        &:not(:last-of-type){
+            margin-bottom: 1em;
+        }
+    }
+
+    .title{
+        height: 3em; 
+        span{
+            font-size: $font-l; 
+        }
+    }
+
+    .instructions{
+        box-sizing: border-box;
+        padding: 3px;
+        text-align: justify;
+        color: $color-dgray;   
+    }
+
+    .example{
+        @include box_s1();
+
+        span{
+            font-weight: 300;
+            b{
+                font-weight: 600;
+            }
+        }
+    }
+
+    .run{
+        margin-top:1em;
+        margin-bottom: -1em;
+        text-align: center;
+        a{
+            background-color: $kainos-corp-green;
+            min-width: 6em;
+            color: white;
+        }
+    }
+}

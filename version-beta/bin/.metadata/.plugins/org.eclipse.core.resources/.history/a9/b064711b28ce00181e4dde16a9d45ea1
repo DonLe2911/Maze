@@ -1,0 +1,68 @@
+
+async function repeat_instructions(instructions){ 
+    for(var i= 0; i< _repeat_count; i++){
+        var result = await run_instructions(instructions, true);
+        if(result == _success || result == _failure) return result;
+    }
+}
+
+async function run_instructions(instructions, is_repeat){
+    for(var i= 0; i< instructions.length; i++){
+        if(instructions[i] != _repeat){
+            var result =  await run_instruction(instructions[i]);
+            if(result == _success){
+                _show_success();
+                return _success;
+            }
+            else if(result == _failure){
+                _show_failure(fail);
+                return _failure;
+            } 
+        }
+        else{
+            var result = await repeat_instructions(_get_repeat_instructions(instructions.slice(0, i)));
+            if(result == _success || result == _failure) return result;
+        }
+    };
+    // if all the (GIVEN #repeated) instructions run and the end is not found, the game is lost
+    if(is_repeat) return "";
+    _show_failure(fail);
+    return _failure;
+}
+
+async function run_instruction(instruction){
+    await _sleep(_game_speed);
+    console.log(instruction);
+    var button          = $("button["+_x_coord+"="+_current_cell[_x_coord]+"]"+
+                                  "["+_y_coord+"="+_current_cell[_y_coord]+"]");
+    var new_direction   = _get_next_direction(instruction, _current_direction);
+    // change direction on button
+    _change_icon(button, _current_direction, new_direction);
+    // get new coordinates
+    var [new_x_coord, new_y_coord] = _move_coordinates(_get_instruction_type(instruction), new_direction, _current_cell[_x_coord], _current_cell[_y_coord]);
+    // check if new coordinates are on the path
+    if(_is_in_paths(_current_grid, new_x_coord, new_y_coord)){
+        // clean current button
+        _clean_icon(button);
+        // add icon to new position
+        var new_button  = $("button["+_x_coord+"="+new_x_coord+"]"+
+                                  "["+_y_coord+"="+new_y_coord+"]");
+        _add_icon(new_button, new_direction);
+        // update game variables
+        _current_cell[_x_coord] = new_x_coord;
+        _current_cell[_y_coord] = new_y_coord;
+        _current_direction      = new_direction;
+        // check if reached the end
+        if(_is_end(_current_grid, new_x_coord, new_y_coord)){
+            _playing = false;
+            return _success;
+        }
+
+    }
+    else{
+        _playing = false;
+        return _failure;
+    }
+    return "";
+}
+

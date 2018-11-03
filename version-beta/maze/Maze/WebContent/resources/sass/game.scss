@@ -1,0 +1,99 @@
+@import "./consts";
+ 
+body {    
+    font-family: $fonts-for-display;
+    overflow-x: hidden;
+    margin: 0;    
+}     
+
+.game_panel {   
+    float:left;   
+    position: relative; 
+    
+    width: $width-lhs-divs-game-window;
+    
+    margin-top: $margin-top-game-window;
+    margin-right:3rem; 
+    margin-left:2%;   
+     
+    #grid_container {
+        min-width: 20em; 
+        height:30rem; 
+
+        .path, .wall{
+            border-radius: 0;
+            float: left;   
+        }
+        .path{
+            background-color: $color-path;
+            border: solid 1px $color-border-path;
+        }
+        .wall{
+            background-color: $color-wall;
+            border: solid 1px $color-border-wall;
+        }
+
+        i.fa-chevron-up, i.fa-chevron-down, i.fa-chevron-left, i.fa-chevron-right{
+            font-size: $font-m;
+        }
+    }
+    #control_panel{
+        padding: 3px;
+        position: relative;
+        width: 100%;
+        margin-top: 2em;
+
+        #execute{
+            position: relative;
+            float: left;
+            background-color: $kainos-corp-green;
+            color: white;
+        }
+
+        #new_game{
+            position: relative;
+            float:right;
+            color: white;
+            background-color: $color-wall; 
+        }
+
+        .button_container{
+            position: relative;
+            overflow: auto;
+            width: 100%;
+        }
+
+        #timer_container{
+            position: relative;
+            float: left;
+            margin-top: 1rem;
+            width: 100%;
+            overflow: auto;  
+            #timer{
+                font-size: $font-xl;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.info_panel {
+    @include box_instructions();
+    width: $width-rhs-divs-game-window; 
+    
+    float:left; 
+    position: relative; 
+    
+    margin-top: $margin-top-game-window;
+    margin-bottom: 2rem;
+}
+
+.form_group { 
+    float:left; 
+    position: relative;
+    width: $width-rhs-divs-game-window; 
+
+    textarea{
+        resize: none;
+    }
+}

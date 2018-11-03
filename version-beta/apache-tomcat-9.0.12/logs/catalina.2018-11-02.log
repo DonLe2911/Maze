@@ -1,0 +1,116 @@
+02-Nov-2018 10:32:29.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.12
+02-Nov-2018 10:32:29.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:13:41 UTC
+02-Nov-2018 10:32:29.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.12.0
+02-Nov-2018 10:32:29.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Nov-2018 10:32:29.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Nov-2018 10:32:29.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2018 10:32:29.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.1
+02-Nov-2018 10:32:29.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13-LTS
+02-Nov-2018 10:32:29.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Nov-2018 10:32:29.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 10:32:29.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 10:32:29.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2018 10:32:29.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2018 10:32:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2018 10:32:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\conf\logging.properties
+02-Nov-2018 10:32:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2018 10:32:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2018 10:32:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2018 10:32:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2018 10:32:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 10:32:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 10:32:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\temp
+02-Nov-2018 10:32:29.193 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Airtame;C:\WINDOWS\System32\OpenSSH\;C:\Users\donle\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+02-Nov-2018 10:32:29.262 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 10:32:29.470 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Nov-2018 10:32:29.477 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 10:32:29.479 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Nov-2018 10:32:29.479 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 847 ms
+02-Nov-2018 10:32:29.557 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2018 10:32:29.558 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.12
+02-Nov-2018 10:32:29.593 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\Maze.war]
+02-Nov-2018 10:32:33.607 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Nov-2018 10:32:33.821 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [137] milliseconds.
+02-Nov-2018 10:32:33.857 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\Maze.war] has finished in [4,264] ms
+02-Nov-2018 10:32:33.869 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT.war]
+02-Nov-2018 10:32:33.905 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT.war] has finished in [37] ms
+02-Nov-2018 10:32:33.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\docs]
+02-Nov-2018 10:32:33.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\docs] has finished in [38] ms
+02-Nov-2018 10:32:33.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\examples]
+02-Nov-2018 10:32:34.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\examples] has finished in [405] ms
+02-Nov-2018 10:32:34.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\host-manager]
+02-Nov-2018 10:32:34.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\host-manager] has finished in [59] ms
+02-Nov-2018 10:32:34.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\manager]
+02-Nov-2018 10:32:34.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\manager] has finished in [36] ms
+02-Nov-2018 10:32:34.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT2]
+02-Nov-2018 10:32:34.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT2] has finished in [24] ms
+02-Nov-2018 10:32:34.478 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 10:32:34.486 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 10:32:34.499 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5020 ms
+02-Nov-2018 10:35:23.281 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Nov-2018 10:35:23.281 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 10:35:23.468 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 10:35:23.656 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Nov-2018 10:35:23.689 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Maze] registered the JDBC driver [org.sqlite.JDBC] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+02-Nov-2018 10:35:23.715 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 10:35:23.722 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 10:35:23.726 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 10:35:23.731 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 12:34:12.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.12
+02-Nov-2018 12:34:12.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:13:41 UTC
+02-Nov-2018 12:34:12.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.12.0
+02-Nov-2018 12:34:12.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Nov-2018 12:34:12.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Nov-2018 12:34:12.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2018 12:34:12.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.1
+02-Nov-2018 12:34:12.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13-LTS
+02-Nov-2018 12:34:12.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Nov-2018 12:34:12.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 12:34:12.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 12:34:12.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2018 12:34:12.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2018 12:34:12.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2018 12:34:12.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\conf\logging.properties
+02-Nov-2018 12:34:12.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2018 12:34:12.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2018 12:34:12.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2018 12:34:12.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2018 12:34:12.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 12:34:12.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12
+02-Nov-2018 12:34:12.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\temp
+02-Nov-2018 12:34:12.993 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Airtame;C:\WINDOWS\System32\OpenSSH\;C:\Users\donle\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+02-Nov-2018 12:34:13.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 12:34:13.247 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Nov-2018 12:34:13.253 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 12:34:13.255 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Nov-2018 12:34:13.255 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 830 ms
+02-Nov-2018 12:34:13.303 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2018 12:34:13.303 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.12
+02-Nov-2018 12:34:13.332 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\Maze.war]
+02-Nov-2018 12:34:17.412 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Nov-2018 12:34:17.664 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [177] milliseconds.
+02-Nov-2018 12:34:17.716 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\Maze.war] has finished in [4,384] ms
+02-Nov-2018 12:34:17.725 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT.war]
+02-Nov-2018 12:34:17.760 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT.war] has finished in [35] ms
+02-Nov-2018 12:34:17.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\docs]
+02-Nov-2018 12:34:17.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\docs] has finished in [38] ms
+02-Nov-2018 12:34:17.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\examples]
+02-Nov-2018 12:34:18.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\examples] has finished in [495] ms
+02-Nov-2018 12:34:18.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\host-manager]
+02-Nov-2018 12:34:18.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\host-manager] has finished in [55] ms
+02-Nov-2018 12:34:18.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\manager]
+02-Nov-2018 12:34:18.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\manager] has finished in [46] ms
+02-Nov-2018 12:34:18.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT2]
+02-Nov-2018 12:34:18.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\donle\Projects\maze-engagement\version-beta\apache-tomcat-9.0.12\webapps\ROOT2] has finished in [33] ms
+02-Nov-2018 12:34:18.448 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 12:34:18.459 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 12:34:18.463 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5207 ms
+02-Nov-2018 14:05:27.569 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Nov-2018 14:05:27.569 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 14:05:27.784 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 14:05:27.957 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Nov-2018 14:05:27.982 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Maze] registered the JDBC driver [org.sqlite.JDBC] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+02-Nov-2018 14:05:27.999 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 14:05:28.021 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Nov-2018 14:05:28.027 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Nov-2018 14:05:28.030 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

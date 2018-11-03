@@ -1,0 +1,104 @@
+
+@mixin box_s1(){
+    border : 1px solid $color-lgray;
+    padding: 1em;
+}
+
+@mixin box_instructions(){
+    div{
+        position: relative;
+        width: 100%;
+
+        &:not(:last-of-type){
+            margin-bottom: 1em;
+        }
+    }
+
+    .title{
+        height: 3em; 
+        span{
+            font-size: $font-l; 
+        }
+    }
+
+    .instructions{
+        box-sizing: border-box;
+        padding: 3px;
+        text-align: justify;
+        color: $color-dgray;   
+    }
+
+    .example{
+        @include box_s1();
+
+        span{
+            font-weight: 300;
+            b{
+                font-weight: 600;
+            }
+        }
+    } 
+
+    .run{ 
+        margin-top:1em;
+        margin-bottom: -1em;
+        text-align: center;
+        input{
+        	@include h_centered();
+        	margin-bottom	: 2rem;
+        	width			: 50%;
+        }
+        &> button, &> a{
+            background-color: $kainos-corp-green;
+            min-width: 6em;
+            color: white;
+        }
+    }
+}
+
+@mixin header(){
+	margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.3rem 9999rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 1px solid $color-lgray;
+
+    img {
+        width: 13%;
+    }
+    
+    #toolbar{
+    	@include toolbar(20%);
+    }
+}
+
+@mixin toolbar($width){
+	float		: right;
+	width		: $width;
+	margin-left	: -$width;
+	//margin-top	: 0.25rem; 
+	padding-right	: $margin-side-window;
+	
+	div{
+		float	: right;
+		&:not(div:last-of-type){
+			margin-left	: 1em;
+		}
+	}
+	
+	#profile, &> div > a{
+		&> button{
+			background	: transparent;
+			color		: $kainos-corp-blue;
+		}
+	}
+}
+
+@mixin leaderboard($margin_top, $margin_sides){
+	margin-top	: $margin_top;
+	margin-left	: $margin_sides;
+	margin-right: $margin_sides;
+}

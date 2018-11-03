@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Maze</display-name>
+  <welcome-file-list>
+    <welcome-file>welcome.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Connect</servlet-name>
+    <servlet-class>servlets.Connect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Signout</servlet-name>
+    <servlet-class>servlets.Signout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>level1</servlet-name>
+    <servlet-class>routes.Route_level1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>level2</servlet-name>
+    <servlet-class>routes.Route_level2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>level3</servlet-name>
+    <servlet-class>routes.Route_level3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>leaderboard</servlet-name>
+    <servlet-class>routes.Route_leaderboard</servlet-class>
+  </servlet>
+</web-app>

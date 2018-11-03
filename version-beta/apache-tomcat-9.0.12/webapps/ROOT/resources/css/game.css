@@ -1,0 +1,146 @@
+.btn-success {
+  background-color: #009639 !important;
+}
+
+.kainos_header {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.3rem 9999rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid #f4f3f6;
+}
+.kainos_header img {
+  width: 13%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.game_panel {
+  float: left;
+  position: relative;
+  width: 40%;
+  margin-top: 4em;
+  margin-right: 3rem;
+  margin-left: 2%;
+}
+.game_panel #grid_container {
+  min-width: 20em;
+  height: 30rem;
+}
+.game_panel #grid_container .path, .game_panel #grid_container .wall {
+  border-radius: 0;
+  float: left;
+}
+.game_panel #grid_container .path {
+  background-color: #17a2b8;
+  border: solid 1px rgba(212, 238, 242, 0.2);
+}
+.game_panel #grid_container .wall {
+  background-color: silver;
+  border: solid 1px lightgray;
+}
+.game_panel #grid_container i.fa-chevron-up, .game_panel #grid_container i.fa-chevron-down, .game_panel #grid_container i.fa-chevron-left, .game_panel #grid_container i.fa-chevron-right {
+  font-size: 1.5rem;
+}
+.game_panel #control_panel {
+  padding: 3px;
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+}
+.game_panel #control_panel #execute {
+  position: relative;
+  float: left;
+  background-color: #009639;
+  color: white;
+}
+.game_panel #control_panel #new_game {
+  position: relative;
+  float: right;
+  color: white;
+}
+.game_panel #control_panel .button_container {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+.game_panel #control_panel #timer_container {
+  position: relative;
+  float: left;
+  margin-top: 1rem;
+  width: 100%;
+  overflow: auto;
+}
+.game_panel #control_panel #timer_container #timer {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.info_panel {
+  width: 50%;
+  float: left;
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 2rem;
+}
+.info_panel div {
+  position: relative;
+  width: 100%;
+}
+.info_panel div:not(:last-of-type) {
+  margin-bottom: 1em;
+}
+.info_panel .title {
+  height: 3em;
+}
+.info_panel .title span {
+  font-size: 2rem;
+}
+.info_panel .instructions {
+  box-sizing: border-box;
+  padding: 3px;
+  text-align: justify;
+  color: #8b878e;
+}
+.info_panel .example {
+  border: 1px solid #f4f3f6;
+  padding: 1em;
+}
+.info_panel .example span {
+  font-weight: 300;
+}
+.info_panel .example span b {
+  font-weight: 600;
+}
+.info_panel .run {
+  margin-top: 1em;
+  margin-bottom: -1em;
+  text-align: center;
+}
+.info_panel .run a {
+  background-color: #009639;
+  min-width: 6em;
+  color: white;
+}
+
+.form_group {
+  float: left;
+  position: relative;
+  width: 50%;
+}
+.form_group textarea {
+  resize: none;
+}
+
+/*# sourceMappingURL=game.css.map */

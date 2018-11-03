@@ -1,0 +1,11 @@
+@import "./consts";
+
+body {
+    font-family: $fonts-for-display;
+    overflow-x: hidden;
+    margin: 0;
+} 
+
+#leaderboard{
+	@include leaderboard(4rem, 3rem); 
+}

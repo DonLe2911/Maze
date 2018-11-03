@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="resources/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/game.css">
+    <link rel="stylesheet" type="text/css" href="resources/external/bootstrap.css">
+    <script type="text/javascript" src="resources/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/vars/variables.js"></script>
+    <script type="text/javascript" src="resources/js/vars/game.js"></script>
+    <script type="text/javascript" src="resources/js/vars/grids.js"></script>
+    <script type="text/javascript" src="resources/js/libs/grid-support.js"></script>
+    <script type="text/javascript" src="resources/js/funcs/init-grid.js"></script>
+    <script type="text/javascript" src="resources/js/funcs/instructions.js"></script>
+    <script type="text/javascript" src="resources/js/funcs/validate.js"></script>
+    <script type="text/javascript" src="resources/js/main.js"></script>
+    <script type="text/javascript" src="resources/external/bootstrap.js"></script>
+    <script type="text/javascript" src="resources/external/handlebars.runtime-v4.0.12.js"></script>
+    <script type="text/javascript" src="resources/js/vars/templates.js"></script>
+    <script type="text/javascript" src="resources/js/pages/level1.js"></script>
+    <title>Maze</title>
+</head>
+<body>
+    <style>
+        #grid_container .btn{
+            border-radius: 0;
+        }
+        .path{
+            border: solid 0.5px #D4EEF2;
+        }
+        .wall{
+            border: solid 1px lightgray;
+        }
+        button{
+            float:left;
+        }
+    </style>
+    <div class="kainos_header">
+        <a href="welcome.html"><img src="resources/img/logorgbonline.png"/></a>
+    </div>
+
+
+    <div class="game_panel">
+        <div id="grid_container"></div>
+        <div id="control_panel">
+            <div class="button_container">
+                <button id="execute" class="btn">Execute</button>
+                <button id="new_game" class="btn btn-default" disabled>New game</button>
+            </div>
+            <div id="timer_container">
+                <span class="title">Timer</span><br>
+                <span id="timer">00:00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="info_panel">
+        <div class="title"><span>Instructions</span></div>
+        <div class="instructions">
+            Navigate the arrow to the star to win. Each command should be entered on a new line
+            as shown in the example below. Note that each instruction can only be used <b>twice</b> and you cannot have two consecutive repeats.<br><br>
+        </div>
+        <div class="example">
+                <span><b>move left</b> (rotates arrow left 90 degrees and then move forward one step)</span><br>
+                <span><b>move right</b> (rotates arrow right 90 degrees and then move forward one step)</span><br>
+                <span><b>move forward</b> (arrow will move forward one step)</span><br>
+                <span><b>jump left</b> (rotates arrow left 90 degrees and then move forward two steps)</span><br>
+                <span><b>jump right</b> (rotates arrow right 90 degrees and then move forward two steps)</span><br>
+                <span><b>jump forward</b> (arrow will move forward two steps)</span><br>
+                <span><b>repeat</b> (repeats previous commands in order x 3)</span><br>
+              </div>
+    </div>
+
+    <div class="form_group">
+        <textarea class="form-control form-control-lg" id="input-instructions" rows="10" ></textarea>
+    </div>
+
+</body>
+</html>

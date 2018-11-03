@@ -1,0 +1,51 @@
+.btn-success {
+  background-color: #009639 !important;
+}
+
+.kainos_header {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.3rem 9999rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid #f4f3f6;
+}
+.kainos_header img {
+  width: 13%;
+}
+.kainos_header #toolbar {
+  float: right;
+  width: 20%;
+  margin-left: -20%;
+  padding-right: 2em;
+}
+.kainos_header #toolbar div {
+  float: right;
+}
+.kainos_header #toolbar div:not(div:last-of-type) {
+  margin-left: 1em;
+}
+.kainos_header #toolbar #profile > button, .kainos_header #toolbar > div > a > button {
+  background: transparent;
+  color: #001E60;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+#leaderboard {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/*# sourceMappingURL=leaderboard.css.map */

@@ -1,0 +1,42 @@
+@import "mixins/properties.scss";
+@import "mixins/containers.scss";
+
+$fonts-for-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$margin-top-game-window: 4em;
+$margin-side-window: 2em;
+
+$width-lhs-divs-game-window: 40%;
+$width-rhs-divs-game-window: 50%;
+
+// Kainos colour palette
+$kainos-corp-green: #009639;
+$kainos-corp-blue: #001E60;
+$kainos-corp-secondary-blue: #0057B8;
+
+$color-border-path: rgba(212, 238, 242, 0.2);
+$color-border-wall: lightgray;
+$color-lgray: #f4f3f6;
+$color-dgray: #8b878e;
+
+$color-path: rgb(23, 162, 184);
+$color-wall: rgb(192, 192, 192);
+
+
+.btn-success {
+    background-color: $kainos-corp-green !important;
+}
+
+.kainos_header {
+    @include header(); 
+} 
+
+html{
+    overflow-x: hidden;
+}
+
+// fonts
+$font-m: 1.5rem;
+$font-l: 2rem;
+$font-xl: 3rem;
+
